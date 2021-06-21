@@ -1,0 +1,21 @@
+.indexhtmlbody{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhSOXrFoZjahs-jFJPLotzFRQtMTDfH0kUQczOxbsCT2USAuhAQuTu1oVkqvr4y0U29PM&usqp=CAU");
+    background-size: 100%;
+
+}
+
+#output{
+    border-radius: 10px;
+    border-top: 10px solid rgb(8, 215, 252);
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+#input{
+    border-radius: 10px;
+    border-top: 10px solid rgb(8, 215, 252);
+    padding: 10px;
+    float: none;
+    text-align: left;
+}

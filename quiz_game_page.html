@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>The-Math--Quizzz</title>
+        <link rel="stylesheet" href="quiz_game_page.css">
+        <script src="main.js"></script>
+        <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous">
+    </head>
+    <body style="background-color:rgb(255, 0, 140)";>
+        
+            <h4 id="player1_name"><span id="player1_score"></span></h4>
+            <br>
+            <h4 id="player2_name"><span id="player2_score"></span></h4>
+    <div class="container">
+        <center>
+            <h2>The-Math--Quizzz</h2>
+            <br><br><br>
+            <div id="output" style="background-color:pink";>
+                <label id="">2 x 5</label>
+                <br>
+                <label>Answer : </label>&nbsp;<input>
+                <br>
+                <button onclick="check()" id="check_button">Check</button>
+            </div>
+<br><br>
+            <div id="input" style="background-color:pink";>
+                
+                <label>Number 1</label>
+                <br>
+                <input id="number1_input">
+                <br>
+                <br>
+                <label>Number 2</label>
+                <br>
+                <input id="number2_input">
+                <button onclick="send()" id="send_button">Send</button>
+            </div>
+        </center>
+    </div>
+    </body>
+</html>
